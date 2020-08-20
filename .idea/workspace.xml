@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a60ea4-2d07-443e-8186-a11951e8043f" name="Default Changelist" comment="create mp3 player">
-      <change beforePath="$PROJECT_DIR$/MusicSheetGenerator/src/test/java/Mp3ToWavTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicSheetGenerator/src/test/java/Mp3ToWavTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="93a60ea4-2d07-443e-8186-a11951e8043f" name="Default Changelist" comment="create mp3 player" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,22 +96,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="584" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1597953790680" />
-    <state width="1921" height="290" key="GridCell.Tab.0.bottom" timestamp="1597953588003">
+    <state width="1921" height="290" key="GridCell.Tab.0.bottom" timestamp="1597954073982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588003" />
-    <state width="1921" height="290" key="GridCell.Tab.0.center" timestamp="1597953588003">
+    <state width="1921" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597954073982" />
+    <state width="1921" height="290" key="GridCell.Tab.0.center" timestamp="1597954073982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588003" />
-    <state width="1921" height="290" key="GridCell.Tab.0.left" timestamp="1597953588002">
+    <state width="1921" height="290" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597954073982" />
+    <state width="1921" height="290" key="GridCell.Tab.0.left" timestamp="1597954073982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588002" />
-    <state width="1921" height="290" key="GridCell.Tab.0.right" timestamp="1597953588003">
+    <state width="1921" height="290" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597954073982" />
+    <state width="1921" height="290" key="GridCell.Tab.0.right" timestamp="1597954073982">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588003" />
+    <state width="1921" height="290" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597954073982" />
     <state x="880" y="84" key="SettingsEditor" timestamp="1596644969730">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

@@ -18,11 +18,11 @@
             <artifactId>google-api-client</artifactId>
             <version>1.30.10</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/javazoom/jlayer -->
+
         <dependency>
-            <groupId>javazoom</groupId>
+            <groupId>com.googlecode.soundlibs</groupId>
             <artifactId>jlayer</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.1.4</version>
         </dependency>
 
         <dependency>
