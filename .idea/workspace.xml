@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93a60ea4-2d07-443e-8186-a11951e8043f" name="Default Changelist" comment="" />
+    <list default="true" id="93a60ea4-2d07-443e-8186-a11951e8043f" name="Default Changelist" comment="create mp3 player">
+      <change beforePath="$PROJECT_DIR$/MusicSheetGenerator/src/test/java/Mp3ToWavTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MusicSheetGenerator/src/test/java/Mp3ToWavTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MusicSheetGenerator" />
   </component>
   <component name="ProjectId" id="1f8qa0LFEJj0E5lmWhYXfOuE4gl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,7 +38,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Mp3ToWavTest">
+  <component name="RunManager" selected="Application.AudioPlayerTest">
+    <configuration name="AudioPlayerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AudioPlayerTest" />
+      <module name="MusicSheetGenerator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Mp3ToWavTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Mp3ToWavTest" />
       <module name="MusicSheetGenerator" />
@@ -52,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AudioPlayerTest" />
         <item itemvalue="Application.Mp3ToWavTest" />
         <item itemvalue="Application.test" />
       </list>
@@ -79,34 +90,46 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1597329481366" />
-    <state width="1921" height="290" key="GridCell.Tab.0.bottom" timestamp="1597269486447">
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597951511744">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597269486447" />
-    <state width="1921" height="290" key="GridCell.Tab.0.center" timestamp="1597269486447">
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597951511744" />
+    <state x="584" y="119" key="CommitChangelistDialog2" timestamp="1597953790680">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597269486447" />
-    <state width="1921" height="290" key="GridCell.Tab.0.left" timestamp="1597269486447">
+    <state x="584" y="119" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1597953790680" />
+    <state width="1921" height="290" key="GridCell.Tab.0.bottom" timestamp="1597953588003">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597269486447" />
-    <state width="1921" height="290" key="GridCell.Tab.0.right" timestamp="1597269486447">
+    <state width="1921" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588003" />
+    <state width="1921" height="290" key="GridCell.Tab.0.center" timestamp="1597953588003">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1921" height="290" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597269486447" />
+    <state width="1921" height="290" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588003" />
+    <state width="1921" height="290" key="GridCell.Tab.0.left" timestamp="1597953588002">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1921" height="290" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588002" />
+    <state width="1921" height="290" key="GridCell.Tab.0.right" timestamp="1597953588003">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1921" height="290" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1597953588003" />
     <state x="880" y="84" key="SettingsEditor" timestamp="1596644969730">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="880" y="84" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1596644969730" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1597932807908">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1597932807908" />
     <state x="776" y="303" key="chooseDestDirectoryDialog" timestamp="1596643728750">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="776" y="303" key="chooseDestDirectoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1596643728750" />
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1597684190331">
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1597932769308">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597684190331" />
+    <state x="656" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1597932769308" />
     <state x="1172" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1596644471156">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
