@@ -10,6 +10,8 @@ public class AudioPlayer {
     //FilePath
     AudioInputStream din;
     AudioFormat decodedFormat;
+    SourceDataLine line;
+    int nBytesRead, nBytesWritten;
 
     public AudioPlayer(String FilePath) throws IOException, UnsupportedAudioFileException {
         File file = new File(FilePath);
@@ -24,12 +26,11 @@ public class AudioPlayer {
 
     public void play() throws IOException, LineUnavailableException {
         byte[] data = new byte[4096];
-        SourceDataLine line = getLine(decodedFormat);
+        line = getLine(decodedFormat);
         if (line != null)
         {
             // Start
             line.start();
-            int nBytesRead = 0, nBytesWritten = 0;
             while (nBytesRead != -1)
             {
                 nBytesRead = din.read(data, 0, data.length);
@@ -53,11 +54,15 @@ public class AudioPlayer {
     }
 
 
-    public void pause(){
-
+    public void pause() throws IOException, LineUnavailableException{
+        line.drain();
+        line.stop();
     }
 
-    public void stop(){
-
+    public void stop() throws IOException, LineUnavailableException{
+        line.drain();
+        line.stop();
+        line.close();
+        din.close();
     }
 }
